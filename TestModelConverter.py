@@ -25,8 +25,6 @@ from hamcrest import *
 import unittest
 from ModelConvert import *
 
-# 653, 655, 657, 659, 660. Saet 6
-
 class TestModelConverter(unittest.TestCase):
     def testImport(self):
         data = """import com.extjs.gxt.ui.client.data.BaseModel;\n"""
